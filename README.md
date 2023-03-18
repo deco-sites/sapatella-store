@@ -111,7 +111,7 @@ account name.
 After this, your should be using the products provenient from your ecommerce
 account
 
-### Adding fonts
+### Adding fonts 
 
 1. Copy & paste your font files (.woff/.woff2) to `/static/fonts` folder
 2. Open `/components/GlobalTags.tsx` component and replace `@font-face` tags

@@ -52,6 +52,7 @@ const options: Omit<Options, "selfURL"> = {
         "section-title": "#161616",
         "positive": "#1A7346",
         "critical": "#B44125",
+        "gray": "#b5b5b5"
       },
       borderColor: {
         "default": "#D4DBD7",
@@ -73,6 +74,7 @@ const options: Omit<Options, "selfURL"> = {
         "body": ["16px", "20px"],
         "caption": ["13px", "16px"],
         "list-price": ["10px", "20px"],
+        "breadcrumb": ["11px", "16px"],
       },
       fontWeight: {
         "heading-1": "500",
@@ -111,7 +113,7 @@ const options: Omit<Options, "selfURL"> = {
       },
     },
     fontFamily: {
-      sans: ["Albert Sans", "sans-serif"],
+      sans: ["Lato", "sans-serif"],
       serif: ["inherit", "serif"],
     },
     screens: {

@@ -10,7 +10,8 @@ type Props = JSX.IntrinsicElements["span"] & {
     | "price"
     | "section-title"
     | "positive"
-    | "critical";
+    | "critical"
+    | "gray" ;
   variant?:
     | "heading-1"
     | "heading-2"
@@ -18,6 +19,7 @@ type Props = JSX.IntrinsicElements["span"] & {
     | "menu"
     | "button"
     | "body"
+    | "breadcrumb"
     | "caption"
     | "list-price";
 };
