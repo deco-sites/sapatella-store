@@ -11,6 +11,7 @@ const colors = [
   "default",
   "header",
   "badge",
+  "dark-charcoal",
   "footer",
   "interactive",
   "interactive-inverse",
