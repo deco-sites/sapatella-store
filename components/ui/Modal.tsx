@@ -66,10 +66,10 @@ const Modal = ({
       onClick={(e) =>
         (e.target as HTMLDialogElement).tagName === "DIALOG" && onClose?.()}
     >
-      <section class="pt-6 h-full bg-default flex flex-col">
-        <header class="flex px-4 justify-between items-center pb-6 border-b-1 border-default">
+      <section class="pt-3 h-full bg-default flex flex-col">
+        <header class="flex px-4 justify-between items-center pb-3 border-b-1 border-default">
           <h1>
-            <Text variant="heading-2">{title}</Text>
+            <Text variant="heading-4">{title}</Text>
           </h1>
           <Button variant="icon" onClick={onClose}>
             <Icon id="XMark" width={20} height={20} strokeWidth={2} />

@@ -37,6 +37,7 @@ const options: Omit<Options, "selfURL"> = {
         "default": "#FFFFFF",
         "header": "#FFFFFF",
         "badge": "#8C3D3D", // shopping cart tem isso tambem
+        "dark-charcoal": "#333333",
         "footer": "#003232",
         "interactive": "#161616",
         "interactive-inverse": "#FFFFFF",
@@ -68,6 +69,7 @@ const options: Omit<Options, "selfURL"> = {
         "heading-1": ["56px", "67.2px"],
         "heading-2": ["24px", "28.8px"],
         "heading-3": ["20px", "24px"],
+        "heading-4": ["12px", "16px"],
         "menu": ["16px", "20px"],
         "button": ["14px", "18px"],
         "body": ["16px", "20px"],
@@ -78,6 +80,7 @@ const options: Omit<Options, "selfURL"> = {
         "heading-1": "500",
         "heading-2": "500",
         "heading-3": "500",
+        "heading-4": "500",
         "menu": "400",
         "button": "700",
         "body": "400",
